@@ -1,0 +1,106 @@
+{
+  "hooks": [
+    {
+      "name": "Bluetooth",
+      "values": [
+        {"hook": "-[CBCentralManager *]"}, {"hook": "-[CBPeripheral *]"}
+      ]
+    },
+    {
+      "name": "Calendar",
+      "values": [
+        {"hook": "-[EKEventStore *]"},
+        {"hook": "-[EKEvent *]"},
+        {"hook": "-[EKCalendar *]"},
+        {"hook": "-[EKReminder *]"}
+      ]
+    },
+    {
+      "name": "Camera & Microphone",
+      "values": [
+        {"hook": "-[AVCaptureDevice *]"},
+        {"hook": "-[AVCaptureSession *]"}
+      ]
+    },
+    {
+      "name": "Contacts",
+      "values": [
+        {"hook": "-[CNContactStore *]"},
+        {"hook": "-[CNContact *]"}
+      ]
+    },
+    {
+      "name": "Health Kit",
+      "values": [
+        {"hook": "-[HKHealthStore *]"}
+      ]
+    },
+    {
+      "name": "Home Kit",
+      "values": [
+        {"hook": "-[HMHomeManager *]"},
+        {"hook": "-[HMHome *]"}
+      ]
+    },
+    {
+      "name": "Location",
+      "values": [
+        {"hook": "-[CLLocationManager *]"},
+        {"hook": "-[CLLocation *]"}
+      ]
+    },
+    {
+      "name": "Motion",
+      "values": [
+        {"hook": "-[CMMotionManager *]"}
+      ]
+    },
+    {
+      "name": "NFC",
+      "values": [
+        {"hook": "-[NFCReaderSession *]"}
+      ]
+    },
+    {
+      "name": "Photos",
+      "values": [
+        {"hook": "-[PHPhotoLibrary *]"}
+      ]
+    },
+    {
+      "name": "Speech Recognition",
+      "values": [
+        {"hook": "-[SFSpeechRecognizer *]"}
+      ]
+    },
+    {
+      "name": "Cryptographic Keys",
+      "values": [
+        {"hook": "-[SecKey *]"}
+      ]
+    },
+    {
+      "name": "Network Traffic",
+      "values": [
+        {"hook": "-[*URLConnection *init*]"},
+        {"hook": "-[*URLSessionTask *init*]"},
+        {"hook": "-[*URLRequest *init*]"},
+        {"hook": "-[*URLResponse *init*]"}
+      ]
+    },
+    {
+      "name": "Pasteboard",
+      "values": [
+        {"hook": "-[UIPasteboard *]"}
+      ]
+    },
+    {
+      "name": "Phone",
+      "values": [
+        {"hook": "-[CTCall *]"},
+        {"hook": "-[CTCarrier *]"},
+        {"hook": "-[CTTelephonyNetworkInfo *]"}
+      ]
+    }
+  ]
+}

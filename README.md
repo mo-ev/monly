@@ -1,4 +1,4 @@
-# 🧬 monly 🔬
+# 🧬🔬 monly
 [![GitHub release](https://img.shields.io/github/release/mo-ev/monly.svg)](https://GitHub.com/mo-ev/monly/releases/) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/mo-ev/monly/graphs/commit-activity) 
 [![GitHub forks](https://img.shields.io/github/forks/mo-ev/monly.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/mo-ev/monly/network/)
@@ -84,12 +84,8 @@ docker-compose up
 - *MongoDB*: http://localhost:27017/
 - *Prisma*: http://localhost:4466/_admin
 
-
-## Getting started 🚀
-
 ## Credits 🌻
 <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 ## License 🔸
-[![GitHub license](https://img.shields.io/github/license/mo-ev/monly.svg)](https://github.com/mo-ev/monly/blob/master/LICENSE)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mo-ev/monly/blob/master/LICENSE/)

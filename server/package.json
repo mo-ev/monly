@@ -1,0 +1,24 @@
+{
+  "name": "monly.server",
+  "version": "0.1",
+  "description": "nodejs server for the monly app",
+  "main": "app.js",
+  "author": "codefuse",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/run.js"
+  },
+  "dependencies": {
+    "frida": "^12.7.5",
+    "frida-compile": "^9.0.8",
+    "frida-screenshot": "^3.0.3",
+    "frida-uikit": "^4.0.4",
+    "frida-uiwebview": "^3.0.0",
+    "koa": "^2.8.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^1.19.3"
+  }
+}

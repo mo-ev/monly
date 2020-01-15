@@ -1,0 +1,13 @@
+type Scan {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  app: String!
+  device: String!
+}
+
+type ScanItem {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  scanId: String!
+  data: Json!
+}

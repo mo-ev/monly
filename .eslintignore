@@ -1,0 +1,4 @@
+/dist
+/server/agent.js
+/server/agent/
+/prisma/
